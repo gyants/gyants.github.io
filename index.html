@@ -3,200 +3,88 @@
 <head>
     <meta charset="utf-8">
     <title>ISIRI</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,300;0,400;0,600;0,700;1,300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-<nav id="nav-bar">
-    <div class="nav-content">
-        <ul class="nav-list">
-            <li class="nav-item nav-gyants">
-                <a href="index.html" class="nav-link nav-link-gyants">ISIRI</a>
-            </li>
-            <li class="nav-item nav-info">
-                <a href="#info" class="nav-link nav-link-info">About me</a>
-            </li>
-            <li class="nav-item nav-education">
-                <a href="#edu" class="nav-link nav-link-education">Education</a>
-            </li>
-            <li class="nav-item nav-skills">
-                <a href="#skills" class="nav-link nav-link-skills">Skills</a>
-            </li>
-            <li class="nav-item nav-experiences">
-                <a href="#exp" class="nav-link nav-link-experiences">Experiences</a>
-            </li>
-            <li class="nav-item nav-hobbies">
-                <a href="#hobbies" class="nav-link nav-link-hobbies">Hobbies</a>
-            </li>
-        </ul>
-    </div>
-</nav>
-
-<div class="content">
-    <div class="card card-head">
-        <div class="card-content card-content-head">
-            <div id="head-box" class="card-item card-item-box card-head-box">
-                <h1 class="card-item card-item-text card-item-title">
-                    ISIRI SRIUTHAI
-                </h1>
-                <h2 class="card-item card-item-text card-item-sub">
-                    <b>Computer Engineering Student<b>
-                </h2>
-                <div class="card-item card-item-text card-item-sub2">
-                    Also Tutor, Fortune Teller, Designer, and Artist
-                </div>
-
-
-            </div>
-        </div>
-    </div>
-    <div id="info" class="card card-info">
-        <div class="card-content card-content-info">
-                <img src="images/info-image.jpg" alt="" id="info-image" class="card-item card-item-image card-info-image">
-                <div class="card-item card-item text">
-                    <h2 class="card-title info">ABOUT ME</h2>
-                    <p class="card-item-sub2 info-paragraph">Curious and passion-driven Computer Engineering student and also Vice-President of the Computer Engineering department. Native Thai and fluent in English. Outstanding in both working and studying with leadershp experiences 3.94 Accumulated GPA. Dedicated to learning and self-development. Always up for a challenge and new opportunities.</p>
-                </div>
-        </div>
-    </div>
-    <div id="edu" class="card card-education">
-
-        <div class="card-content card-content-education">
-            <h2 class="card-title">EDUCATION</h2>
-            <div id="education-box">
-                <div id="education-benja" class="school">
-                    <img src="images/wat%20benchamabophit.png" alt="" id="benja" class="past">
-                    <div class="school-name past">Wat Benchamabophit Bilingual School</div>
-                    <div class="year past">2006-2014</div>
-                </div>
-                <div id="education-sa" class="school">
-                    <img src="images/sriayudhya.png" alt="" id="sa" class="past">
-                    <div class="school-name past">Sri Ayudhya School</div>
-                    <div class="year past">2014-2017</div>
-                </div>
-                <div id="education-tgps" class="school">
-                    <img src="images/tgps.png" alt="" id="tgps" class="past">
-                    <div class="school-name past">Thai-German Pre Engineering School</div>
-                    <div class="year past">2017-2020</div>
-                </div>
-                <div id="education-kmutnb" class="school">
-                    <img src="images/kmutnb.png" alt="" id="kmutnb" class="present">
-                    <div class="school-name present">King Mongkut's University North Bangkok</div>
-                    <div class="year present">2020-Present</div>
+    <header>
+        <nav class="nav">
+            <ul>
+                <li class="logo">
+                    <a href="#gyants"><img src="images/Gdot-white.png" alt=""></a>
+                </li>
+                <li>
+                    <a href="#about">About</a>
+                </li>
+                <li>
+                    <a href="#education">Education</a>
+                </li>
+                <li>
+                    <a href="#skills">Skills</a>
+                </li>
+                <li>
+                    <a href="#experience">Experience</a>
+                </li>
+                <li>
+                    <a href="#hobbies">Hobbies</a>
+                </li>
+                <li>
+                    <a href="#contact">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <section class="content">
+        <div id="gyants" class="content-background">
+            <div class="content-area top-banner">
+                <div class="top-banner-gradient">
+                    <div class="top-banner-name">ISIRI SRIUTHAI</div>
+                    <div class="top-banner-title">Computer Engineering Student</div>
+                    <div class="top-banner-subtitle">Also Tutor, Fortune Teller, Designer, and Artist</div>
                 </div>
             </div>
         </div>
-    </div>
-    <div id="skills" class="card card-skills">
-        <div class="card-content card-content-skills">
-            <h2 class="card-title">SKILLS</h2>
-            <div class="skills-container">
-                <div id="language-skills" class="skillbox">
-                    <h3 class="card-title2">Languages</h3>
-                    <ul class="list list-languages">
-                        <li><p class="lang-name">Thai</p><p class="lang-rank lang-native">Native</p></li>
-                        <li><p class="lang-name">English</p><p class="lang-rank lang-fluent">Fluent</p></li>
-                        <li><p class="lang-name">German</p><p class="lang-rank lang-beginner">Beginner</p></li>
-                        <li><p class="lang-name">Mandarin</p><p class="lang-rank lang-beginner">Beginner</p></li>
-                    </ul>
-                </div>
-                <div id="professional-skills" class="skillbox">
-                    <h3 class="card-title2">Professional Skills</h3>
-                    <ul class="list list-professional">
-                        <li id="professional-coding">Coding</li>
-                        <li id="professional-tutoring">Tutoring</li>
-                        <li id="professional-presentation">Presentation</li>
-                        <li id="professional-msoffice">Microsoft Office</li>
-                        <li id="professional-photoshop">Photoshop</li>
-                        <li id="professional-webdesign">Web Design</li>
-                        <li id="professional-photoshop">Photoshop</li>
-                    </ul>
-                </div>
-                <div id="artistic-skills" class="skillbox">
-                    <h3 class="card-title2">Artistic</h3>
-                    <ul class="list list-artistic">
-                        <li id="artistic-guitar">Guitar</li>
-                        <li id="artistic-digitalart">Digital Art</li>
-
-                    </ul>
-                </div>
-<!--                <img src="images/artwork-3.jpg" alt="" class="skills-artwork">-->
-            </div>
-        </div>
-    </div>
-    <div id="exp" class="card card-experiences">
-        <div class="card-content card-content-experiences">
-            <h2 class="card-title">Experiences</h2>
-            <div class="skillbox ">
-                <ul class="list list-experiences">
-                    <li class="exp-item"><img src="https://media-exp1.licdn.com/dms/image/C4E0BAQEMb5B0KivlSQ/company-logo_100_100/0/1604374689598?e=1666224000&v=beta&t=QU13YT5eAWtcZTRLu8yHljpVHjurbD52J8OSUuWdVjY" alt="" class="logo cpf-logo"><p class="exp-title">Young Software Developer Program</p><p class="issuer">CPF Group</p><p class="date">January 2022</p></li>
-                </ul>
-            </div>
-        </div>
-    </div>
-    <div id="hobbies" class="card card-hobbies">
-        <div class="card-content card-content-hobbies">
-            <h2 class="card-title">Hobbies</h2>
-            <div class="hobbies-container">
-                <div id="reading" class="skillbox">
-                    <h3 class="card-title2">Reading</h3>
-                    <div class="container read-container">
-                        <img src="images/book-1.jpg" alt="" class="read-books">
-                        <img src="images/book-2.png" alt="" class="read-books">
-                        <img src="images/book-3.jpg" alt="" class="read-books">
-                        <img src="images/book-4.jpg" alt="" class="read-books">
-                        <img src="images/book-5.jpg" alt="" class="read-books">
-                        <img src="images/book-6.jpg" alt="" class="read-books">
-                        <img src="images/book-7.jpg" alt="" class="read-books">
-                        <img src="images/book-8.jpg" alt="" class="read-books">
-                        <img src="images/book-9.jpg" alt="" class="read-books">
-                        <img src="images/book-10.jpg" alt="" class="read-books">
-                        <img src="images/book-11.jpg" alt="" class="read-books">
-                    </div>
-                </div>
-                <div id="digital-art" class="skillbox">
-                    <h3 class="card-title2">Digital Painting</h3>
-                    <div class="container art-container">
-                        <img src="images/artwork-1.png" alt="" class="artwork">
-                        <img src="images/artwork-2.jpg" alt="" class="artwork">
-                        <img src="images/artwork-3.jpg" alt="" class="artwork">
-                        <img src="images/artwork-5.jpg" alt="" class="artwork">
-                        <img src="images/artwork-6.jpg" alt="" class="artwork">
-                        <img src="images/artwork-7.jpg" alt="" class="artwork">
-                    </div>
-                </div>
-                <div id="music" class="skillbox">
-                    <h3 class="card-title2">Listening to Music</h3>
-                    <div class="container albums-container">
-                        <img src="images/album-1.jpg" alt="" class="album">
-                        <img src="images/album-2.jpg" alt="" class="album">
-                        <img src="images/album-3.jpg" alt="" class="album">
-                        <img src="images/album-4.jpg" alt="" class="album">
-                        <img src="images/album-5.jpg" alt="" class="album">
-                        <img src="images/album-6.jpg" alt="" class="album">
-                        <img src="images/album-7.jpg" alt="" class="album">
-                        <img src="images/album-8.jpg" alt="" class="album">
-                        <img src="images/album-9.jpg" alt="" class="album">
-                        <img src="images/album-10.jpg" alt="" class="album">
-                        <img src="images/album-11.jpg" alt="" class="album">
-                        <img src="images/album-12.jpg" alt="" class="album">
-                    </div>
-                </div>
-                <div id="exercise" class="skillbox">
-                    <h3 class="card-title2">Working Out</h3>
-                    <div class="container workout-container">
-                        <img src="images/workout-1.jpg" alt="" class="workout">
-                        <img src="images/workout-2.jpg" alt="" class="workout">
-                        <img src="images/workout-3.jpg" alt="" class="workout">
-                        <img src="images/workout-4.jpg" alt="" class="workout">
-                        <img src="images/workout-5.jpg" alt="" class="workout">
+        <div id="about" class="content-background">
+            <div class="content-area about-me">
+                <div class="about-me-container">
+                    <div class="topic about-me-topic">ABOUT ME</div>
+                    <div class="about-me-box">
+                        <div class="about-me-text">Curious and passion-driven Computer Engineering student and also Vice-President of the Computer Engineering department. Native Thai and fluent in English. Outstanding in both working and studying with leadership experiences 3.94 Accumulated GPA. Dedicated to learning and self-development. Always up for a challenge and new opportunities.</div>
                     </div>
                 </div>
             </div>
-            
         </div>
-    </div>
-
-</div>
-<script src="main.js"></script>
+        <div id="education" class="content-background">
+            <div class="content-area education">
+                <div class="topic">EDUCATION</div>
+                <div class="school-container">
+                    <img src="images/wat%20benchamabophit.png" alt="">
+                    <div class="description">2008-2014: Wat Benchamabophit Bilingual School</div>
+                    <div class="paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus odio est, tempus lacinia varius nec, mollis volutpat elit. Integer mattis sed urna at commodo. Ut pulvinar lectus ac dictum lacinia. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Cras elementum eleifend lobortis.</div>
+                </div>
+                <div class="school-container">
+                    <img src="images/sriayudhya.png" alt="">
+                    <div class="description">2015-2017: Sriayudhya School</div>
+                    <div class="paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus odio est, tempus lacinia varius nec, mollis volutpat elit. Integer mattis sed urna at commodo. Ut pulvinar lectus ac dictum lacinia. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Cras elementum eleifend lobortis.</div>
+                </div>
+                <div class="school-container">
+                    <img src="images/tgps.png" alt="">
+                    <div class="description">2018-2020: Thai-German Pre-Engineering School</div>
+                    <div class="paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus odio est, tempus lacinia varius nec, mollis volutpat elit. Integer mattis sed urna at commodo. Ut pulvinar lectus ac dictum lacinia. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Cras elementum eleifend lobortis.</div>
+                </div>
+                <div class="school-container">
+                    <img src="images/kmutnb.png" alt="">
+                    <div class="description">2021-Present: King Mongkut's University of Technology North Bangkok</div>
+                    <div class="paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus odio est, tempus lacinia varius nec, mollis volutpat elit. Integer mattis sed urna at commodo. Ut pulvinar lectus ac dictum lacinia. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Cras elementum eleifend lobortis.</div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        © 2022 GYANTS. All rights reserved
+    </footer>
+    <script src="main.js"></script>
 </body>
 </html>
