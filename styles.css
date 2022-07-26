@@ -197,18 +197,19 @@ tr .skill-icon{
 .skill-row{
     padding: 11px 0;
     width: 750px;
+    border-collapse: collapse;
 }
 
 .skill-icon{
-    width: 96px;
+    width: 10%;
 }
 
 .skill-name{
-    width: 185px;
+    width: 22%;
 }
 
 .skill-level{
-    width: 165px;
+    width: 35.6%;
 }
 
 .native{
