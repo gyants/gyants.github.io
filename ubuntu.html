@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>GYANTS | Ubuntu Installation Tutorial</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,300;0,400;0,600;0,700;1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/97de4cb407.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+    <nav class="nav">
+        <ul>
+            <li class="logo">
+                <a href="index.html#gyants"><img src="images/Gdot-white.png" alt=""></a>
+            </li>
+            <li>
+                <a href="index.html#about">About</a>
+            </li>
+            <li>
+                <a href="index.html#education">Education</a>
+            </li>
+            <li>
+                <a href="index.html#skills">Skills</a>
+            </li>
+            <li>
+                <a href="index.html#experience">Experience</a>
+            </li>
+            <li>
+                <a href="index.html#hobbies">Hobbies</a>
+            </li>
+            <li>
+                <a href="#ubuntu">Ubuntu</a>
+            </li>
+            <li>
+                <a href="index.html#contact">Contact</a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<section class="content">
+    <div id="ubuntu" class="content-background">
+        <div class="content-area ubuntu-header">
+            <img src="images/big-ubuntu.png" alt="" class="ubuntu-big">
+            <div class="ubuntu-right">
+                <div class="ubuntu-text">Ubuntu</div>
+                <div class="ubuntu-subtext">Installation Tutorial</div>
+                <div class="ubuntu-links">
+                    <a href="#wsl" class="wsl link link-jump">Windows Subsystem for Linux </a>
+                    <a href="#vm" class="vm link link-jump">Virtual Machine </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="wsl" class="content-background">
+        <div class="content-area windows-wsl content-pad">
+            <div class="topic">WINDOWS SUBSYSTEM FOR LINUX</div>
+            <div class="content-container">
+                <div class="subtopic">LINKS</div>
+                <div class="links-container">
+                    <ul>
+                        <li><a href="https://docs.microsoft.com/en-us/windows/wsl/install" class="subtopic-link link">Install Linux on Windows with WSL </a></li>
+                    </ul>
+                </div>
+                <div class="link-container">
+                    <div class="subtopic">WINDOWS SUBSYSTEM FOR LINUX INSTALLATION</div>
+                    <div class="visual-step">
+                        <img src="images/wsl1.png" alt="">
+                        <div class="step-desc">
+                            Open Command Prompt by typing cmd in the search bar and
+                            select Run as administrator
+                        </div>
+                    </div>
+                    <div class="visual-step">
+                        <img src="images/wsl2.png" alt="">
+                        <div class="step-desc">
+                            Click Yes
+                        </div>
+                    </div>
+                    <div class="visual-step">
+                        <img src="images/wsl3.png" alt="">
+                        <div class="step-desc">
+                            Type in <i>wsl --install</i> and run
+                        </div>
+                    </div>
+                    <div class="visual-step">
+                        <img src="images/wsl4.png" alt="">
+                        <div class="step-desc">
+                            Wait until the command finishes running. And then it's done!
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="vm" class="content-background">
+        <div class="content-area vbox-vm content-pad">
+            <div class="topic">VIRTUAL MACHINE</div>
+            <div class="content-container">
+                <div class="subtopic">LINKS</div>
+                <div class="links-container">
+                    <ul>
+                        <li><a href="https://www.virtualbox.org/wiki/Downloads" class="subtopic-link link">Oracle VM VirtualBox Download </a></li>
+                        <li><a href="https://ubuntu.com/download/desktop" class="subtopic-link link">Ubuntu Desktop Download </a></li>
+                    </ul>
+                </div>
+                <div class="step-container">
+                    <div class="subtopic">VIRTUAL MACHINE INSTALLATION</div>
+                    <div class="visual-step">
+                        <img src="images/vb1.png" alt="">
+                        <div class="step-desc">
+                            Visit <a href="https://www.virtualbox.org/wiki/Downloads" class="link">Oracle VM VirtualBox Download </a> and download the package
+                            for your platform and run the executable file
+                        </div>
+                    </div>
+                    <div class="visual-step">
+                        <img src="images/vb2.png" alt="">
+                        <div class="step-desc">
+                            Click Next
+                        </div>
+                    </div>
+                    <div class="visual-step">
+                        <img src="images/vb3.png" alt="">
+                        <div class="step-desc">
+                            Click Next
+                        </div>
+                    </div>
+                    <div class="visual-step">
+                        <img src="images/vb4.png" alt="">
+                        <div class="step-desc">
+                            Select your preferred settings, then click Next
+                        </div>
+                    </div>
+                    <div class="visual-step">
+                        <img src="images/vb5.png" alt="">
+                        <div class="step-desc">
+                            Click Yes
+                        </div>
+                    </div>
+                    <div class="visual-step">
+                        <img src="images/vb6.png" alt="">
+                        <div class="step-desc">
+                            Click Install
+                        </div>
+                    </div>
+                    <div class="visual-step">
+                        <img src="images/vb7.png" alt="">
+                        <div class="step-desc">
+                            Wait until the installation is finished, then click Finish
+                        </div>
+                    </div>
+                </div>
+                <div class="step-container">
+                    <div class="subtopic">VIRTUALBOX UBUNTU INSTALLATION</div>
+                    <div class="visual-step">
+                        <img src="images/ub1.png" alt="">
+                        <div class="step-desc">
+                            Visit <a href="https://ubuntu.com/download/desktop" class="link">Ubuntu Desktop Download </a> and download latest version of
+                            Ubuntu disc image file
+                        </div>
+                    </div>
+                    <div class="visual-step">
+                        <img src="images/ub2.png" alt="">
+                        <div class="step-desc">
+                            When you see this page, wait until the download is finished. You should get a file
+                            named ubuntu-22.04-desktop-amd64.iso for version 22.04
+                        </div>
+                    </div>
+                    <div class="visual-step">
+                        <img src="images/ub3.png" alt="">
+                        <div class="step-desc">
+                            Open VirtualBox and click New
+                        </div>
+                    </div>
+                    <div class="visual-step">
+                        <img src="images/ub4.png" alt="">
+                        <div class="step-desc">
+                            Name your Virtual Machine and choose your VM directory
+                        </div>
+                    </div>
+                    <div class="visual-step">
+                        <img src="images/ub5.png" alt="">
+                        <div class="step-desc">
+                            Allocate memory for your VM. More memory means smoother performance
+                        </div>
+                    </div>
+                    <div class="visual-step">
+                        <img src="images/ub6.png" alt="">
+                        <div class="step-desc">
+                            Allocate memory for your VM. More memory means smoother performance
+                        </div>
+                    </div>
+                    <div class="visual-step">
+                        <img src="images/ub7.png" alt="">
+                        <div class="step-desc">
+                            Choose your hard disk file type. The default setting is recommended
+                        </div>
+                    </div>
+                    <div class="visual-step">
+                        <img src="images/ub8.png" alt="">
+                        <div class="step-desc">
+                            Choose if you want your hard disk to be dynamically allocated or be fixed
+                        </div>
+                    </div>
+                    <div class="visual-step">
+                        <img src="images/ub9.png" alt="">
+                        <div class="step-desc">
+                            Choose your disk space
+                        </div>
+                    </div>
+                    <div class="visual-step">
+                        <img src="images/ub10.png" alt="">
+                        <div class="step-desc">
+                            Click on the folder icon next to the drop-down menu
+                        </div>
+                    </div>
+                    <div class="visual-step">
+                        <img src="images/ub11.png" alt="">
+                        <div class="step-desc">
+                            Click Add
+                        </div>
+                    </div>
+                    <div class="visual-step">
+                        <img src="images/ub12.png" alt="">
+                        <div class="step-desc">
+                            Navigate to your .iso file that you downloaded earlier. Select that file and click Open
+                        </div>
+                    </div>
+                    <div class="visual-step">
+                        <img src="images/ub13.png" alt="">
+                        <div class="step-desc">
+                            Select the .iso file and click Choose
+                        </div>
+                    </div>
+                    <div class="visual-step">
+                        <img src="images/ub14.png" alt="">
+                        <div class="step-desc">
+                            Click Start
+                        </div>
+                    </div>
+                    <div class="visual-step">
+                        <img src="images/ub15.png" alt="">
+                        <div class="step-desc">
+                            Choose Try or Install Ubuntu and press Enter
+                        </div>
+                    </div>
+                    <div class="visual-step">
+                        <img src="images/ub16.png" alt="">
+                        <div class="step-desc">
+                            Choose your preferred language and click Install Ubuntu
+                        </div>
+                    </div>
+                    <div class="visual-step">
+                        <img src="images/ub17.png" alt="">
+                        <div class="step-desc">
+                            Choose your keyboard layout
+                        </div>
+                    </div>
+                    <div class="visual-step">
+                        <img src="images/ub18.png" alt="">
+                        <div class="step-desc">
+                            Choose your installation type. Default settings are recommended
+                        </div>
+                    </div>
+                    <div class="visual-step">
+                        <img src="images/ub19.png" alt="">
+                        <div class="step-desc">
+                            Choose whether you want to install Ubuntu as your main OS or with other OS
+                        </div>
+                    </div>
+                    <div class="visual-step">
+                        <img src="images/ub20.png" alt="">
+                        <div class="step-desc">
+                            Confirm everything, then click Continue
+                        </div>
+                    </div>
+                    <div class="visual-step">
+                        <img src="images/ub21.png" alt="">
+                        <div class="step-desc">
+                            Choose your Region
+                        </div>
+                    </div>
+                    <div class="visual-step">
+                        <img src="images/ub22.png" alt="">
+                        <div class="step-desc">
+                            Name your machine and set a password, then click Continue
+                        </div>
+                    </div>
+                    <div class="visual-step">
+                        <img src="images/ub23.png" alt="">
+                        <div class="step-desc">
+                            After this screen shows up, press Enter
+                        </div>
+                    </div>
+                    <div class="visual-step">
+                        <img src="images/ub24.png" alt="">
+                        <div class="step-desc">
+                            Enjoy your Ubuntu!
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="contact" class="content-background">
+        <div class="content-area contact content-pad">
+            <div class="topic">Contact</div>
+            <div class="phone"><a href="call:+66944835634"><i class="fa-solid fa-phone fa-2x"></i></a><span class="number">+66 944 835 634</span></div>
+            <ul class="social-media">
+                <li><a href="https://www.facebook.com/rsbbk/"><i class="fa-brands fa-facebook-square fa-4x"></i></a></li>
+                <li><a href="https://www.instagram.com/magnusgiantz._/"><i class="fa-brands fa-instagram-square fa-4x"></i></a></li>
+                <li><a href="https://twitter.com/tnaigzraz"><i class="fa-brands fa-twitter-square fa-4x"></i></a></li>
+                <li><a href="https://www.linkedin.com/in/isiri-sriuthai-999050232/"><i class="fa-brands fa-linkedin fa-4x"></i></a></li>
+                <li><a href="mailto:isiri.sriuthai@gmail.com"><i class="fa-solid fa-square-envelope fa-4x"></i></a></li>
+            </ul>
+        </div>
+    </div>
+</section>
+    <footer>
+        © 2022 GYANTS. All rights reserved.
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>

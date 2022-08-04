@@ -5,6 +5,14 @@
     text-decoration: none;
 }
 
+.link{
+    color: #0066CC;
+}
+
+.link:hover{
+    text-decoration: underline;
+}
+
 header{
     width: 100%;
     background-color: rgba(0,0,0,.86);
@@ -45,6 +53,11 @@ ul a:hover{
 }
 
 .content{
+    display: block;
+    padding-top: 48px;
+}
+
+.newpage{
     display: block;
     padding-top: 48px;
 }
@@ -276,8 +289,97 @@ tr .skill-icon{
     color: rgba(0,0,0,1);
 }
 
-
-.education, .skills, .experiences, .hobbies, .contact{
-    padding: 47px;
+.newpage-ubuntu{
+    max-width: 420px;
+    height: 75px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
+.link::after{
+    font-family: "Font Awesome 6 Free Solid";
+    font-weight: 900;
+    content: '\f08e';
+    font-size: 13px;
+}
+
+.ubuntu-big{
+    width: 422px;
+    height: 422px;
+}
+
+.ubuntu-header{
+    height: 422px;
+    position: relative;
+    text-align: center;
+    display: flex;
+
+}
+
+.ubuntu-right{
+    margin: auto 0;
+    text-align: left;
+}
+
+.ubuntu-text{
+    font-size: 60px;
+    font-weight: 600;
+    color: #DD4814;
+}
+
+.ubuntu-subtext{
+    font-size: 40px;
+    color: #707070;
+}
+
+.ubuntu-links{
+    display: flex;
+    max-width: 345px;
+    justify-content: space-between;
+}
+
+.ubuntu-links a{
+    font-size: 13px;
+}
+
+.link-jump::after{
+    font-family: "Font Awesome 6 Free Solid";
+    font-weight: 900;
+    content: '\f105';
+    font-size: 13px;
+}
+
+.subtopic-link{
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.links-container ul li{
+    padding-top: 10px;
+}
+
+.visual-step{
+    padding: 14px 0;
+}
+
+.step-desc{
+    padding-top: 10px;
+    margin: 0 auto;
+    width: 750px;
+    text-align: center;
+    font-size: 17px;
+    color: rgba(112,112,112,.92);
+}
+
+
+
+
+
+.no-padding{
+    padding-top: 0px;
+}
+
+.content-pad{
+    padding: 47px;
+}
