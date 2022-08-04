@@ -73,6 +73,10 @@ ul a:hover{
     margin: auto;
 }
 
+img{
+    max-width: 100%;
+}
+
 .top-banner{
     background-image: url("images/card-image.jpg");
     background-repeat: no-repeat;
@@ -371,7 +375,6 @@ tr .skill-icon{
     font-size: 17px;
     color: rgba(112,112,112,.92);
 }
-
 
 
 
