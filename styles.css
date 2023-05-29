@@ -1,277 +1,123 @@
 *{
-    margin: 0;
-    font-family: 'Prompt', sans-serif;
-    list-style: none;
+    
+    font-family: Bungee;
     text-decoration: none;
+    color: #FBFCF8;
 }
 
-header{
-    width: 100%;
-    background-color: rgba(0,0,0,.86);
-    z-index: 9999;
-    position: fixed;
+body{
+    background-color: #040406;
 }
 
-footer{
-    text-align: center;
-    color: rgba(133, 133, 133, .92);
-    font-size: 16px;
-    margin-bottom: 10px;
-}
 
-nav ul{
+.navbar {
     display: flex;
-    height: 48px;
-    backdrop-filter: blur(20px);
-    justify-content: space-between;
-    max-width: 940px;
-    padding: 0 42px;
     align-items: center;
-    margin: 0 auto;
-}
-ul a{
-    font-size: 14px;
-    font-weight: 300;
-    color: rgba(255,255,255,1);
-    opacity: .72;
-    transition: opacity .32s;
-}
-ul a:hover{
-    opacity: 1;
-}
-.logo{
-    padding-top: 4px;
-}
-
-.content{
-    display: block;
-    padding-top: 48px;
-}
-
-.content-background{
-    background-color: #FBFBFB;
-    margin-bottom: 70px;
-    scroll-margin-top: 48px;
-}
-
-.content-area{
-    max-width: 1024px;
-    margin: auto;
-}
-
-.top-banner{
-    background-image: url("images/card-image.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 1024px;
-    height: 518px;
-}
-
-.top-banner-name{
-    font-size: 62px;
-
-}
-.top-banner-title{
-    margin-top: -18px;
-    font-size: 20px;
-}
-.top-banner-subtitle{
-    margin-top: 40px;
-    font-weight: 500;
-    opacity: .7;
-    padding-bottom: 10px;
-    font-size: 12px;
-}
-
-.top-banner-gradient{
-    text-align: center;
-    color: white;
-    padding-top: 344px;
-    font-weight: 600;
-    background: linear-gradient(to top,rgba(87,87,87,.44),rgba(94,92,92,0) 40%);
-    overflow: hidden;
-}
-
-.about-me{
-    background-image: url("images/IMG_1799-3.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 1024px;
-    height: 723px;
-
-}
-
-.about-me-container{
-    padding: 40px;
-    padding-top: 400px;
-}
-
-.topic{
-    font-size: 36px;
-    font-weight: 800;
-    letter-spacing: 1px;
-    text-align: center;
-}
-
-.about-me-topic{
-    text-align: right;
-}
-
-.about-me-box{
-    width: 575px;
-    background-color: rgba(255, 255, 255, .07);
-    filter: brightness(1.15);
-    backdrop-filter: blur(7px);
-    text-align: center;
-    margin-left: auto;
-}
-
-.about-me-text{
-    padding: 40px;
-    color: #707070;
-    opacity: 1;
-}
-
-.school-container{
-    display: block;
-    text-align: center;
-    margin-top: 62px;
-}
-
-.school-container img{
-    width: 220px;
-}
-
-.description{
-    color: rgba(133, 133, 133, .92);
-    font-size: 14px;
-    font-weight: 600;
-    margin-top: 15px;
-    margin-bottom: 32px;
-}
-
-.paragraph{
-    color: rgba(112 ,112 ,112, 1);
-    font-weight: 500;
-    max-width: 672px;
-    margin: 0 auto;
-}
-
-.subtopic{
-    color: rgba(94, 94, 94,.92);
-    font-size: 20px;
-    font-weight: 600;
-    margin-top: 35px;
-    letter-spacing: 1px;
-}
-
-.skill-container, .hobbies-container{
-    padding: 0 139px;
-}
-
-.skill-table{
-    padding-left: 46px;
-}
-
-td{
-    height: 46px;
-    vertical-align: center;
-}
-
-tr .skill-icon{
-    text-align: center;
-}
-
-.skill-name, .skill-level, .skill-description{
-    color: rgba(112,112,112,.92);
-    font-size: 16px;
-    font-weight: 600;
-}
-
-
-.skill-row{
-    padding: 11px 0;
-    width: 750px;
-}
-
-.skill-icon{
-    width: 96px;
-}
-
-.skill-name{
-    width: 185px;
-}
-
-.skill-level{
-    width: 165px;
-}
-
-.native{
-    color: rgba(79, 144, 86, .92);
-}
-.fluent{
-    color: rgba(106, 155, 111, .92);
-}
-.beginner{
-    color: rgba(187, 187, 187, .92);
-}
-
-.experiences-container{
-    text-align: center;
-}
-
-.experiences-container table{
-    width: 550px;
-    margin: 0 auto;
-    margin-top: 32px;
-}
-.link-icon{
-    width: 150px;
-    text-align: center;
-}
-
-.hobbies-container .subtopic{
-    margin-top: 70px;
-}
-
-.art-container, .book-container, .album-container{
-    margin: 32px auto;
-    text-align: center;
-}
-
-.number{
-    font-weight: 600;
-    font-size: 22px;
-}
-
-.phone{
-    display: flex;
-    margin: 32px auto;
-    width: 275px;
-    justify-content: space-around;
-}
-
-.phone a i{
-    opacity: .72;
-    transition: opacity .32s;
-}
-
-.phone a i:hover{
-    opacity: 1;
-}
-
-.contact ul{
-    display: flex;
-    margin: 16px auto;
     justify-content: space-between;
-    width: 750px;
+    padding: 10px;
+    padding-left: 4rem;
+    padding-right: 4rem;
 }
-.contact a{
-    color: rgba(0,0,0,1);
+  
+.navbar-logo {
+    color: #FBFCF8;
+    font-weight: bold;
+    font-size: 2.1rem;
+}
+  
+.navbar-icons {
+    display: flex;
+    align-items: center;
+}
+  
+.navbar-icons a {
+    margin-left: 10px;
+    font-size: 2.1rem;
+    margin: 0.7rem;
+}
+
+.more {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.more h2 {
+    font-size: 2.75rem;
+    line-height: 0rem;
+}
+
+.more h1{
+    font-size: 5.5rem;
+    line-height: 1rem;
+    color: #E0115F;
+}
+
+.soon {
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 2rem;
 }
 
 
-.education, .skills, .experiences, .hobbies, .contact{
-    padding: 47px;
+
+.navbar-icons-mobile{
+    display: none;
 }
 
+  /* Media query for small screens */
+@media only screen and (max-width: 1000px) {
+    .navbar-icons {
+      display: none;
+    }
+    
+    .navbar-logo {
+      margin: 0 auto;
+      margin-top: 5rem;
+      text-align: center;
+      font-size: 4rem;
+    }
+    .navbar-icons-mobile {
+        display: block;
+        position: absolute;
+        top: 80%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        font-size: 5.5rem;
+    }
+    .navbar-icons-mobile i{
+        margin: 2rem;
+    }
+    .more {
+        position: absolute;
+        top: 45%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
+    .more h2 {
+        font-size: 4rem;
+        line-height: 0rem;
+    }
+    
+    .more h1{
+        font-size: 8rem;
+        line-height: 1rem;
+        color: #E0115F;
+    }
+    .soon {
+        background-color: transparent;
+        position: absolute;
+        top: 60%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        font-size: 4rem;
+    }
+  }
